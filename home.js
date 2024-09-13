@@ -14,4 +14,12 @@ $(document).ready(function() {
     $("#selectPortfolioSection").on("click", function() {
         window.location.href = "#selectPortfolioSection";
     });
+
+    $(".PingkhasPortButton").on("click", function() {
+        window.location.href = "pingkhas.html";
+    });
+
+    $(".EmchowPortButton").on("click", function() {
+        window.location.href = "emchow.html";
+    });
 });
