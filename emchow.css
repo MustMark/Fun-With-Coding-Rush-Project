@@ -13,7 +13,7 @@
 }
 
 .emchow-port-header{
-    margin-top: 10%;
+    margin-top: 8%;
     width: 100vw;
     font-size: 64px;
     font-weight: bold;
@@ -24,7 +24,7 @@
 .emchow-description{
     font-size: 24px;
     padding-top: 1.5%;
-    text-shadow: 5px 5px 20px black;
+    text-shadow: 5px 5px 10px black;
     /* border: 1px solid black; */
 }
 
@@ -43,7 +43,6 @@
     width: 100vw;
     font-size: 64px;
     font-weight: bold;
-    /* border: 1px solid black; */
 
 }
 
@@ -99,15 +98,28 @@
     width: 10vw;
     height: 3.5vw;
     background-color: white;
-    border-radius: 10px;
-    background-image: url("https://tothost.vn/wp-content/uploads/2023/07/image-21-1024x414.png");
+    border-radius: 10px;   
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     margin-right: auto;
+    
+}
+
+.emchow-github{
+    background-image: url("https://tothost.vn/wp-content/uploads/2023/07/image-21-1024x414.png");
     &:hover{
         filter: invert(1);
         cursor: pointer;
+    }
+}
+
+.emchow-youtube{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg");
+    &:hover{
+        background-image: url("https://logos-world.net/wp-content/uploads/2020/05/Black-YouTube-logo.png");
+        cursor: pointer;
+        background-size: 85%;
     }
 }
 

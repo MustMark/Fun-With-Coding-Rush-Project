@@ -1,5 +1,5 @@
 $("#emchowProFunGame").on("click", function() {
-    window.open("https://github.com/jueeeeeen/Programming-Fundamental-Project-Spooky-Run", "_blank");
+    window.open("https://youtu.be/BUD4jWafpBQ?si=HoyKh5LRm8FG8XSW", "_blank");
 });
 
 $("#emchowOOP").on("click", function() {
