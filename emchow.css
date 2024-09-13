@@ -1,0 +1,104 @@
+.emchow-flex{
+    background-size: 100%;
+    min-height: 1000px;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.emchow-front-background{
+    background-image: url("https://i.pinimg.com/originals/fd/40/a4/fd40a4b8b151c4e432106576187d03c9.gif");
+}
+
+.emchow-port-header{
+    margin-top: 11%;
+    width: 100vw;
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: 5px 5px 20px black;
+    /* border: 1px solid black; */
+}
+
+.emchow-description{
+    font-size: 24px;
+    padding-top: 1.5%;
+    text-shadow: 5px 5px 20px black;
+    /* border: 1px solid black; */
+}
+
+.emchow-profile-pic{
+    margin-top: 12%;
+    width: 100vw;
+    border: 1px solid black;
+    img{
+        background-color: white;
+        border-radius: 50%;
+        width: 15%;
+    }
+}
+
+.emchow-projects-header{
+    width: 100vw;
+    font-size: 64px;
+    font-weight: bold;
+    border: 1px solid black;
+
+}
+
+.emchow-projects-background{
+    background-image: url("https://cdn.vectorstock.com/i/500p/01/87/8bit-pixel-graphic-blue-sky-background-with-clouds-vector-50920187.jpg");
+}
+
+.emchow-project-header{
+    width: 100vw;
+    margin-top: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.project-img{
+    width: 50%;
+    /* text-align: right; */
+    .spooky-run-img{
+        padding-top: 10%;
+        width: 70%;
+        border: 1px solid black;
+    }
+    
+}
+
+.emchow-project-description{
+    padding-top: 20%;
+    padding-left: 10%;
+    width: 50%;
+    border: 1px solid black;
+    vertical-align: middle;
+    color: black;
+    font-size: 26px;
+    text-align: left;
+
+}
+
+.emchow-project-container{
+    display: flex;
+    text-align: right;
+}
+
+.emchow-btn{
+    width: 10vw;
+    height: 3.5vw;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url("https://tothost.vn/wp-content/uploads/2023/07/image-21-1024x414.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    &:hover{
+        filter: invert(1);
+        cursor: pointer;
+    }
+}
