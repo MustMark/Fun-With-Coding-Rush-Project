@@ -13,3 +13,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+.home-image{
+    width: 100vw;
+}
