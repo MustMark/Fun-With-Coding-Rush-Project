@@ -14,4 +14,5 @@ $(document).ready(function() {
     $("#selectPortfolioSection").on("click", function() {
         window.location.href = "#selectPortfolioSection";
     });
+
 });
