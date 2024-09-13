@@ -10,4 +10,8 @@ $(document).ready(function() {
         var href = $(this).text().trim().toLowerCase() + ".html";
         window.location.href = href;
     });
+
+    $("#selectPortfolioSection").on("click", function() {
+        window.location.href = "#selectPortfolioSection";
+    });
 });
