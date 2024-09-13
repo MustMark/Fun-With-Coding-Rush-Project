@@ -1,0 +1,137 @@
+.pingkhas1 {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/1347872.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.pingkhas2 {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images6.alphacoders.com/122/1224149.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.pingkhas3 {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp6490795.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.content {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.pingkhasPicture {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio {
+    color: white;
+    font-size: 64px;
+    text-decoration: underline;
+}
+
+.aboutMe{
+    color: white;
+    font-size: 32px;
+}
+
+.aboutMeDetails{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.homeScrollDown {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    height: 38vh;
+}
+
+.info1{
+    margin-top: 20px;
+}
+
+.info2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.projectPicture {
+    width: 350px;
+    height: auto;
+    margin: 10px 10px 0;
+}
+
+.info-text {
+    color: white;
+    width: 350px;
+    padding: 0 0;
+}
+
+.github-link a {
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #7d7c7c;
+    border-radius: 5px;
+}
+
+.github-link a:hover {
+    background-color:#444444;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    filter: invert(1)
+}
+
+.social-icon img:hover {
+    width: 400px;
+    transform: scale(1.1);
+    filter: invert(0)
+}
+
+.social-icon img:active {
+    transform: scale(0.90);
+}

@@ -33,6 +33,7 @@ body{
 
 .logo:hover{
     cursor: pointer;
+    color: darkgrey;
 }
 
 .logoPic{
@@ -53,6 +54,7 @@ body{
 
 .navbarItemClick:hover{
     cursor: pointer;
+    color: darkgrey;
 }
 
 .navbarSmall {
@@ -232,39 +234,4 @@ body{
     /* border: 1px solid; */
     font-size: 20px;
     text-shadow: 5px 10px 20px black;
-}
-
-.pingkhas{
-    background-image: url("https://images6.alphacoders.com/122/1224149.png");
-    background-size: cover;
-    z-index: -1;
-}
-
-.content {
-    padding: 20px 20px;
-    text-align: center;
-}
-
-.pingkhasPicture {
-    width: 400px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.portfolio {
-    color: white;
-    font-size: 64px;
-    text-decoration: underline;
-}
-
-.aboutMe{
-    color: white;
-    font-size: 32px;
-}
-
-.aboutMeDetails{
-    color: white;
-    font-family: monospace;
-    font-size: 20px;
 }
