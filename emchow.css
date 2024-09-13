@@ -2,7 +2,7 @@
     background-size: 100%;
     min-height: 1000px;
     color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -13,7 +13,7 @@
 }
 
 .emchow-port-header{
-    margin-top: 11%;
+    margin-top: 10%;
     width: 100vw;
     font-size: 64px;
     font-weight: bold;
@@ -31,7 +31,7 @@
 .emchow-profile-pic{
     margin-top: 12%;
     width: 100vw;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     img{
         background-color: white;
         border-radius: 50%;
@@ -43,7 +43,7 @@
     width: 100vw;
     font-size: 64px;
     font-weight: bold;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
@@ -56,28 +56,36 @@
     margin-top: 5%;
     font-size: 50px;
     font-weight: bold;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    text-shadow: 5px 5px 20px black;
 }
 
 .project-img{
     width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     /* text-align: right; */
     .spooky-run-img{
         padding-top: 10%;
         width: 70%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
     
+    .write-a-read-img{
+        width: 65%;
+        /* border: 1px solid black; */
+        padding-right: 10%;
+    }
 }
 
 .emchow-project-description{
-    padding-top: 20%;
-    padding-left: 10%;
+    padding-top: 10%;
+    padding-left: 5%;
     width: 50%;
-    border: 1px solid black;
+    
     vertical-align: middle;
     color: black;
-    font-size: 26px;
+    font-size: 22px;
     text-align: left;
 
 }
@@ -101,4 +109,12 @@
         filter: invert(1);
         cursor: pointer;
     }
+}
+
+.smaller-size{
+    width: 40%;
+}
+
+.bigger-size{
+    width: 60%;
 }

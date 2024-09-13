@@ -7,7 +7,6 @@
         <link rel="stylesheet" type="text/css" href="home.css">
         <link rel="stylesheet" type="text/css" href="emchow.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="home.js"></script>
     </head>
     <body style="background-color: black;">
         <div class="navbar">
@@ -30,7 +29,7 @@
 
         <div class="parallax emchow-flex emchow-front-background">
             <div class="emchow-port-header">Emily Chow</div>
-            <div class="emchow-description">Hello! My name is Emily Chow. A 2nd year computer engineering student.<br> I am 19 years old.</div>
+            <div class="emchow-description">About Me <br><br> Hello! Welcome to my portfolio page. My name is Emily Chow. You can call me Jin. <br>I am a 2nd year computer engineering student, KMITL. I am 19 years old.</div>
             <div class="emchow-profile-pic">
                 <img src="https://static.thenounproject.com/png/65476-200.png">
             </div>
@@ -45,25 +44,39 @@
                     <img class="spooky-run-img" src="images\Spooky Run Info.svg" alt="spooky run">
                 </div>
                 <div class="emchow-project-description">
-                    hello
+                    <br><br><br><br><br><br><br>
+                    <h1>Spooky Run</h1>
+                    This game is made with C++ and SFML Library. It is inspired by <br>
+                    Cookie Run but players can move in both front and back directions. <br>
+                    The goal is to collect as many stars as possible while avoid hitting <br>
+                    the enemies. But don't worry, there will be items that<br>
+                    help you play easier.
                     <br>
                     <br>
-                    <div class="emchow-btn"></div>
+                    <div class="emchow-btn" id="emchowProFunGame"></div>
                 </div>
             </div>
 
             <div class="emchow-project-header">Website Project</div>
             <div class="emchow-project-container">
-                <div class="project-img">
-                    <img class="spooky-run-img" src="images\Spooky Run Info.svg" alt="spooky run">
+                <div class="project-img bigger-size">
+                    <img class="write-a-read-img" src="images\Screenshot 2024-09-13 143158.png">
+                    <img class="write-a-read-img" src="images\Screenshot 2024-09-13 144049.png">
                 </div>
-                <div class="emchow-project-description">
-                    hello
+                <div class="emchow-project-description smaller-size">
+                    <br><br><br>
+                    <h1>WriteARead</h1>
+                    This is a group project website and is referenced from<br>
+                    ReadAWrite, a website for reading Novels. <br>
+                    this website allow users to read, creat and buy chapters.<br>
+                    Using Python, Javascript, CSS and HTML.
                     <br>
                     <br>
-                    <div class="emchow-btn"></div>
+                    <div class="emchow-btn" id="emchowOOP"></div>
                 </div>
             </div>
         </div>
     </body>
+    <script src="emchow.js"></script>
+    <script src="home.js"></script>
 </html>

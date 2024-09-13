@@ -11,7 +11,7 @@ $(document).ready(function() {
         window.location.href = href;
     });
 
-    $("#selectPortfolioSection").on("click", function() {
+    $("#home-scroll-down").on("click", function() {
         window.location.href = "#selectPortfolioSection";
     });
 
