@@ -88,7 +88,7 @@ body{
 
 .homeselectImg{
     background-image: url("https://i.pinimg.com/originals/f3/26/cd/f326cd8b7633e8080e59eb81b7854c54.gif");
-    background-size: 50%;
+    background-size: 15%;
 }
 
 .transitionImg{
@@ -158,7 +158,7 @@ body{
     padding-top: 2vw;
     font-size: 4.5vw;
     width: 100vw;
-    text-shadow: 5px 5px 20px black;
+    text-shadow: 5px 5px 10px black;
     
 }
 
@@ -170,7 +170,7 @@ body{
     align-items: stretch;
     box-sizing: border-box;
     height: 5vw;
-    text-shadow: 5px 5px 20px black;
+    text-shadow: 5px 5px 10px black;
 }
 
 .portfoliocontent{
@@ -227,5 +227,5 @@ body{
 .portDescription{
     height: 10vw;
     font-size: 1.2vw;
-    text-shadow: 5px 10px 20px black;
+    text-shadow: 5px 10px 10px black;
 }
