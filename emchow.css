@@ -118,3 +118,37 @@
 .bigger-size{
     width: 60%;
 }
+
+.social-media {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    filter: invert(0)
+}
+
+.social-icon img:hover {
+    width: 200px;
+    transform: scale(1.1);
+    filter: invert(1)
+}
+
+.social-icon img:active {
+    transform: scale(0.90);
+}
