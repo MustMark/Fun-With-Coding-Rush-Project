@@ -71,25 +71,40 @@ body{
     color: white;
     
     
-    background-color: rgb(75, 75, 83);
+    background-color: rgb(0, 0, 0);
 
     min-height: 1000px;
 
     background-attachment: fixed;
     background-repeat:repeat;
     background-size: 25%;
+    background-position: center;
 }
 
 .homeParallaxImg{
     background-image: url('https://i.pinimg.com/originals/06/e1/1b/06e11b60b01b1684b5a2639f4588426d.gif'); 
-    /* temporary */
+    
+}
+
+.homeselectImg{
+    background-image: url("https://i.pinimg.com/originals/f3/26/cd/f326cd8b7633e8080e59eb81b7854c54.gif");
+    background-size: 50%;
+}
+
+.transitionImg{
+    min-height: 1000px;
+    background-position: center;
+    background-image: url("https://i.pinimg.com/originals/eb/0f/a7/eb0fa7e72ce89b375e9891545b03a89a.gif");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    filter: invert(1)
 }
 
 .homeTextContainer{
     display:flexbox;
     font-family: "Reddit Mono", monospace;
     width: 100vw;
-    
 }
 
 .homeHeaderText {
@@ -115,11 +130,6 @@ body{
     font-size: 20px;
     text-align: center;
     height: 38vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    /* border: 1px solid; */
 }
 
 .homeScrollDownText{
@@ -127,7 +137,7 @@ body{
     padding-bottom: 20px;
     padding-top: 20px;
     &:hover{
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(131, 156, 255, 0.168);
         transition: 1s ease;
         cursor: pointer;
     }
@@ -138,15 +148,15 @@ body{
     font-family: "Reddit Mono", monospace;
     width: 100vw;
     height: 100vh;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .selectPortHeaderText{
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
     font-size: 72px;
     width: 100vw;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .portfoliosContainer{
@@ -160,7 +170,7 @@ body{
 }
 
 .portfoliocontent{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 50%;
     height: 80vh;
     margin-top: 5vh;
@@ -171,25 +181,55 @@ body{
 }
 
 .selectportfolioName{
-    border: 1px solid;
+    /* border: 1px solid; */
     margin-top: 10px;
     font-size: 40px;
     height: 10%;
+    &:hover{
+        cursor: pointer;
+        color: rgb(121, 191, 253);
+        font-weight: bold;
+        &::before{
+            content: '>\00A0'
+        }
+        &::after{
+            content: '\00A0<'
+        }
+    }
+    
 }
 
 .portButtoncontainer{
     height: 70%;
-    border: 1px solid;
+    /* border: 1px solid; */
     img{
         border-radius: 5%;
         background-color: rgb(255, 255, 255);
-        height: 60%;
+        height: 70%;
+        &:hover{
+            cursor: pointer;
+            border: 1px solid rgb(127, 142, 255);
+            scale: 1.1;
+        }
     }
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-end{
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .portDescription{
     height: 20%;
-    border: 1px solid;
+    /* border: 1px solid; */
+    font-size: 20px;
 }
 
 .pingkhas{
