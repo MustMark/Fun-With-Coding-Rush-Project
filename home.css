@@ -176,7 +176,7 @@ body{
     margin-top: 5vh;
     box-sizing: border-box;
     text-align: center;
-    
+
     display: flexbox;
 }
 
@@ -230,6 +230,7 @@ body{
     height: 20%;
     /* border: 1px solid; */
     font-size: 20px;
+    text-shadow: 5px 10px 20px black;
 }
 
 .pingkhas{
