@@ -74,6 +74,7 @@ body{
     background-color: rgb(0, 0, 0);
 
     min-height: 1000px;
+    min-width: 100vw;
 
     background-attachment: fixed;
     background-repeat:repeat;
@@ -95,7 +96,7 @@ body{
     min-height: 1000px;
     background-position: center;
     background-image: url("https://i.pinimg.com/originals/eb/0f/a7/eb0fa7e72ce89b375e9891545b03a89a.gif");
-    background-size: 50%;
+    background-size: 20%;
     background-repeat: no-repeat;
     background-color: rgb(255, 255, 255);
     filter: invert(1)
